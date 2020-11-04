@@ -26,7 +26,7 @@ h6 {
   color: #f74d65;
 }
 header {
-  background: url(../images/header_bg.jpg);
+  background: url(../images/header_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -38,15 +38,18 @@ header {
   padding-bottom: 210px;
 }
 .home_text h2 {
-  color: #010101;
-  font-size: 40px;
+  color: #ffffff;
+  font-size: 44px;
   text-transform: uppercase;
   letter-spacing: 13px;
+  -webkit-text-stroke: 2px #000;
 }
 .home_text p {
-  color: #404040;
-  font-size: 14px;
+  color: #291212;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
+  /* -webkit-text-stroke: 0.3px rgb(245, 243, 243); */
 }
 .home_text img {
 }
@@ -130,8 +133,8 @@ header {
   position: absolute;
   width: 80px;
   height: 80px;
-  background-color: #f73b56;
-  top: 110px;
+  background-color: #f09329;
+  top: -15px;
   left: 50%;
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -231,7 +234,7 @@ header {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(247, 77, 101, 0.9);
+  background: rgba(231, 144, 72, 0.9);
   left: 0;
   top: 0;
   opacity: 0;
@@ -239,7 +242,7 @@ header {
 }
 .image_overlay a {
   position: absolute;
-  top: 20px;
+  bottom: 20px;
   right: 20px;
   color: #fff;
   text-decoration: none;
@@ -247,7 +250,7 @@ header {
 }
 .image_overlay h2 {
   position: absolute;
-  bottom: 28px;
+  top: 5px;
   left: 20px;
   font-size: 25px;
   color: #fff;
@@ -256,11 +259,11 @@ header {
 }
 .image_overlay h4 {
   position: absolute;
-  bottom: 11px;
+  top: 54px;
   left: 20px;
   color: #fff;
   font-size: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .no_padding {
   padding-left: 0px;
